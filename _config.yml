@@ -170,13 +170,13 @@ collections:
   tabs:
     output: true
     sort_by: order
-  _arsenal:
+  arsenal:
     output: true # Generate individual pages for each arsenal item
     permalink: /arsenal/:path/ # Define how URLs will look (optional)
-  _data-tools:
+  data_tools:
     output: true
     permalink: /data-tools/:path/
-  _strat-lab:
+  strat_lab:
     output: true
     permalink: /strat-lab/:path/
   
