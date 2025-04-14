@@ -11,8 +11,8 @@ This section contains essential code components, templates, scripts, and utiliti
 ### Arsenal Components:
 
 <ul>
-  {% assign arsenal_items = site.arsenal | sort: "title" %}
-  {% for item in arsenal_items %}
+  {% assign collection_items = site.arsenal | sort: "title" %}
+  {% for item in collection_items %}
     <li>
       <a href="{{ item.url | relative_url }}">{{ item.title }}</a> - {{ item.description }}
       {% if item.difficulty %}<span class="difficulty-badge" style="margin-left: 5px; padding: 2px 5px; font-size: 0.8em; background-color: #eee; border-radius: 3px;">{{ item.difficulty }}</span>{% endif %}
