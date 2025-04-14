@@ -170,19 +170,13 @@ collections:
   tabs:
     output: true
     sort_by: order
-  
-  collections:
-  tabs: # Keep the existing tabs collection for Chirpy's default tabs initially
-    output: true
-    sort_by: order
-  
-  The Quant Arsenal combo Pack:
+  arsenal:
     output: true # Generate individual pages for each arsenal item
     permalink: /arsenal/:path/ # Define how URLs will look (optional)
-  The Quant Data Tools combo Pack:
+  data-tools:
     output: true
     permalink: /data-tools/:path/
-  The Quant Strategy Lab combo Pack:
+  strat-lab:
     output: true
     permalink: /strat-lab/:path/
   
